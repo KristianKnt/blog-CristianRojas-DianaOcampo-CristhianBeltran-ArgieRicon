@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfbf7; /* Tono retro suave */
+    color: #332211;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* Imagen del Logo */
+.logo-img {
+    width: 500px;
+    max-width: 100%; /* Hace que se adapte bien a pantallas pequeñas */
+    margin-bottom: 1rem;
+}
+
+/* Contenedor principal de la sección */
+.quienes-somos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Descripción general del grupo */
+.descripcion-grupo {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #554433;
+    margin-bottom: 2.5rem;
+}
+
+/* Cuadrícula de 2x2 para los integrantes */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas (dos arriba, dos abajo) */
+    gap: 2rem;
+    text-align: left;
+}
+
+/* Tarjeta de cada integrante */
+.miembro-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 2px solid #332211;
+    box-shadow: 4px 4px 0px #332211; /* Estilo retro con sombra sólida */
+    text-align: center;
+}
+
+/* Círculo de iniciales */
+.avatar-iniciales {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: blue; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+    border: 2px solid #332211;
+}
+
+.miembro-card h3 {
+    margin: 0.5rem 0;
+    color: #332211;
+}
+
+.miembro-card p {
+    font-size: 0.9rem;
+    color: #665544;
+    line-height: 1.4;
+}
