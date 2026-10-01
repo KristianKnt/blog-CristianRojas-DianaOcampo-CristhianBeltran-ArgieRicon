@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdfbf7; /* Tono retro suave */
+    background-color: #ffffff; /* Tono retro suave */
     color: #332211;
     margin: 0;
     padding: 2rem;
@@ -51,7 +51,7 @@ body {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background: blue; 
+    background: #294DEB; 
     color: white;
     display: flex;
     align-items: center;
