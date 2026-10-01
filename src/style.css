@@ -153,6 +153,7 @@ body {
   /* Dos columnas (dos arriba, dos abajo) */
   gap: 2rem;
   text-align: left;
+  margin-bottom: 120px;
 }
 
 
