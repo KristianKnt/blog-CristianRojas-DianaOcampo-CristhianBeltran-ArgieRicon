@@ -6,21 +6,21 @@ body {
     padding: 2rem;
 }
 
-/* Imagen del Logo */
+
 .logo-img {
     width: 500px;
-    max-width: 100%; /* Hace que se adapte bien a pantallas pequeñas */
+    max-width: 100%; 
     margin-bottom: 1rem;
 }
 
-/* Contenedor principal de la sección */
+
 .quienes-somos-container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
-/* Descripción general del grupo */
+
 .descripcion-grupo {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -28,7 +28,7 @@ body {
     margin-bottom: 2.5rem;
 }
 
-/* Cuadrícula de 2x2 para los integrantes */
+
 .team-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Dos columnas (dos arriba, dos abajo) */
@@ -36,7 +36,7 @@ body {
     text-align: left;
 }
 
-/* Tarjeta de cada integrante */
+
 .miembro-card {
     background: #ffffff;
     padding: 1.5rem;
@@ -46,7 +46,7 @@ body {
     text-align: center;
 }
 
-/* Círculo de iniciales */
+
 .avatar-iniciales {
     width: 90px;
     height: 90px;
