@@ -6,7 +6,7 @@
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* body {
+body {
     background-color: #ffffff;
     color: #2b303a;
     display: flex;
@@ -14,7 +14,7 @@
     align-items: center;
     min-height: 100vh;
     padding: 60px 20px;
-} */
+}
 
 .contact-section {
     max-width: 1000px;
