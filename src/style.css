@@ -114,11 +114,10 @@
   height: 80px;
 }
 
-/* Estilos para el contenido quienes somos */
+/* Estilos base del cuerpo */
 body {
   background-color: #ffffff;
-  /* Tono retro suave */
-  color: #332211;
+  color: #121118;
   margin: 0;
 
 }
@@ -135,6 +134,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  /* Tono retro suave, acotado a esta página */
+  color: #332211;
 }
 
 
