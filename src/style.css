@@ -10,7 +10,7 @@
 
 /* Estilos para el pie de página */
 .site-footer {
-  background-color: #222;
+  background-color: #121118;
   color: #fff;
   padding: 40px 20px 20px;
 }
@@ -194,13 +194,11 @@ body {
   line-height: 1.4;
 }
 
-
-
 /* estilos del inicio */
-
-.inicio {
-  margin-bottom: -150px;
-}
+/* Ya no hace falta */
+/* .inicio {
+  margin-bottom: 0;
+} */
 
 #up {
   position: relative;
