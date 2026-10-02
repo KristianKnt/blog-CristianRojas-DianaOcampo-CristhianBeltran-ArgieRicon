@@ -2,12 +2,13 @@
     position: relative;
     top: 100px;
     left: 200px;
-    width: 1000px;
+    width: 2000px;
     height: 500px;
     background-color: none;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    background-color: aqua;
 
 }
 
