@@ -1,9 +1,9 @@
 /* Reset general y tipografía */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 
@@ -64,7 +64,7 @@
 .site-header {
   position: fixed;
   background-color: #b3aaaa;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 15px 20px;
   position: sticky;
   top: 0;
@@ -103,7 +103,8 @@
 }
 
 .navigation ul li a:hover {
-  color: #007bff; /* Color azul al pasar el cursor */
+  color: #007bff;
+  /* Color azul al pasar el cursor */
 }
 
 #header {
@@ -115,76 +116,193 @@
 
 /* Estilos para el contenido quienes somos */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Tono retro suave */
-    color: #332211;
-    margin: 0;
-    padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  /* Tono retro suave */
+  color: #332211;
+  margin: 0;
+
 }
 
 
 .logo-img {
-    width: 500px;
-    max-width: 100%; 
-    margin-bottom: 1rem;
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
 
 .quienes-somos-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 .descripcion-grupo {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #554433;
-    margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #554433;
+  margin-bottom: 2.5rem;
 }
 
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas (dos arriba, dos abajo) */
-    gap: 2rem;
-    text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Dos columnas (dos arriba, dos abajo) */
+  gap: 2rem;
+  text-align: left;
+  margin-bottom: 120px;
 }
 
 
 .miembro-card {
-    background: #ffffff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 2px solid #332211;
-    box-shadow: 4px 4px 0px #332211; /* Estilo retro con sombra sólida */
-    text-align: center;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #332211;
+  box-shadow: 4px 4px 0px #332211;
+  /* Estilo retro con sombra sólida */
+  text-align: center;
 }
 
 
 .avatar-iniciales {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background: #294DEB; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 auto 1rem;
-    border: 2px solid #332211;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #294DEB;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+  border: 2px solid #332211;
 }
 
 .miembro-card h3 {
-    margin: 0.5rem 0;
-    color: #332211;
+  margin: 0.5rem 0;
+  color: #332211;
 }
 
 .miembro-card p {
-    font-size: 0.9rem;
-    color: #665544;
-    line-height: 1.4;
+  font-size: 0.9rem;
+  color: #665544;
+  line-height: 1.4;
+}
+
+
+
+/* estilos del inicio */
+
+.inicio {
+  margin-bottom: 300px;
+}
+
+#up {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  width: 1000px;
+  height: 500px;
+  background-color: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+
+}
+
+#blog {
+  background-color: rgb(228, 234, 253);
+  width: 200px;
+  height: 100px;
+  position: relative;
+  left: 400px;
+  border-radius: 20px;
+}
+
+#texto-blog {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(1, 57, 252);
+  padding-top: 20px;
+}
+
+#titulo {
+  font-size: 78px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#parrafo {
+  font-size: 35px;
+  text-align: center;
+  color: rgb(61, 82, 120);
+  margin-top: -30px;
+}
+
+#down {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  width: 1000px;
+  height: 500px;
+  background-color: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 50px;
+
+}
+
+#imagen {
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+#right {
+  background-color: none;
+  width: 450px;
+  height: 450px;
+  margin-left: 500px;
+  margin-top: -485px;
+  border: 0%;
+  padding: 0%;
+}
+
+#resenas {
+  background-color: rgb(228, 234, 253);
+  width: 200px;
+  height: 75px;
+  position: relative;
+  left: 25px;
+  border-radius: 20px;
+  border: 0px;
+}
+
+#texto-resenas {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(1, 57, 252);
+  padding-top: 8px;
+}
+
+#titulo2 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  border: 0px;
+}
+
+#parrafo2 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(61, 82, 120);
+  margin-top: -30px;
+  border: 0px;
 }

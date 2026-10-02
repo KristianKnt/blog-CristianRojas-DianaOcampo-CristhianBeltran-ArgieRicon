@@ -6,103 +6,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contáctanos</title>
   <link rel="stylesheet" href="contact-us.css">
-  
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <section class="contact-section">
-    <div class="contact-title">
-      <h1>Contáctanos</h1>
-      <p class="description">
-        ¿Tienes una pregunta, una propuesta o quieres colaborar con el blog? Escríbenos y te respondemos.
-      </p>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">Zentra music</a>
+      </div>
+      <nav class="navigation">
+        <ul id="header">
+          <li><a href="index.html#home">Inicio</a></li>
+          <li><a href="about-us.html">Quienes Somos</a></li>
+          <li><a href="contact-us.html">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <div class="contact-container">
-      <div class="contact-form-column">
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" placeholder="Tu nombre">
-          </div>
-
-          <div class="form-group">
-            <label for="email">Correo</label>
-            <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
-          </div>
-
-          <div class="form-group">
-            <label for="message">Mensaje</label>
-            <textarea id="message" name="message" rows="3" placeholder="Ingresa tu mensaje"></textarea>
-          </div>
-
-          <div class="checkbox-group">
-            <input type="checkbox" id="terms">
-            <label for="terms">Acepto los <a href="#">Términos y Condiciones</a></label>
-          </div>
-
-          <button type="submit" class="submit-btn">Enviar mensaje</button>
-        </form>
+  <div class="parent-contact">
+    <section class="contact-section">
+      <div class="contact-title">
+        <h1>Contáctanos</h1>
+        <p class="description">
+          ¿Tienes una pregunta, una propuesta o quieres colaborar con el blog? Escríbenos y te respondemos.
+        </p>
       </div>
 
-      <div class="contact-info-column">
-        <div class="services-info">
-          <h3>En Zentra Music puedes</h3>
-          <ul class="benefits-list">
-            <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <path d="m9 12 2 2 4-4" />
-              </svg>
-              <span>Conocer las novedades y reseñas antes que nadie</span>
-            </li>
-            <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <path d="m9 12 2 2 4-4" />
-              </svg>
-              <span>Proponer temas, reseñas o entrevistas para el blog</span>
-            </li>
-            <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <path d="m9 12 2 2 4-4" />
-              </svg>
-              <span>Descubrir artistas y la escena musical local</span>
-            </li>
-            <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <path d="m9 12 2 2 4-4" />
-              </svg>
-              <span>Escribirnos directo para consultas o colaboraciones</span>
-            </li>
-          </ul>
+      <div class="contact-container">
+        <div class="contact-form-column">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Tu nombre">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo</label>
+              <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="3" placeholder="Ingresa tu mensaje"></textarea>
+            </div>
+
+            <div class="checkbox-group">
+              <input type="checkbox" id="terms">
+              <label for="terms">Acepto los <a href="#">Términos y Condiciones</a></label>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar mensaje</button>
+          </form>
         </div>
 
-        <div class="direct-contact">
-          <p class="direct-contact-title">También puedes contactarnos por</p>
-          <div class="contact-methods">
-            <div class="contact-item">
-              <div class="icon-circle">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        <div class="contact-info-column">
+          <div class="services-info">
+            <h3>En Zentra Music puedes</h3>
+            <ul class="benefits-list">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
                   stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                  <polyline points="22,6 12,13 2,6" />
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
                 </svg>
+                <span>Conocer las novedades y reseñas antes que nadie</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Proponer temas, reseñas o entrevistas para el blog</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Descubrir artistas y la escena musical local</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2B303A" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                <span>Escribirnos directo para consultas o colaboraciones</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="direct-contact">
+            <p class="direct-contact-title">También puedes contactarnos por</p>
+            <div class="contact-methods">
+              <div class="contact-item">
+                <div class="icon-circle">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <span>hola@zentramusic.com</span>
               </div>
-              <span>hola@zentramusic.com</span>
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
+    </section>
+
+  </div>
+  <!-- footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>Sobre nosotros</h3>
+        <p>Breve descripción de tu empresa o sitio web.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Enlaces rápidos</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p>Email: info@tucorreo.com</p>
+        <p>Teléfono: +34 123 456 789</p>
+      </div>
     </div>
-  </section>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Tu Empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
 
 </body>
 
