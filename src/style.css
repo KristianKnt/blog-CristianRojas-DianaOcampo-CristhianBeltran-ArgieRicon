@@ -218,7 +218,7 @@ body {
 #blog {
   background-color: rgb(228, 234, 253);
   width: 200px;
-  height: 100px;
+  height: 75px;
   position: relative;
   left: 325px;
   border-radius: 20px;
@@ -227,11 +227,12 @@ body {
 }
 
 #texto-blog {
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   color: rgb(1, 57, 252);
-  padding-top: 20px;
+  padding-top: 15px;
 }
+
 
 #titulo {
   font-size: 64px;
@@ -249,7 +250,7 @@ body {
 
 #down {
   position: relative;
-  top: -160px;
+  top: -200px;
   left: 200px;
   width: 1000px;
   height: 500px;
