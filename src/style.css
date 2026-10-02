@@ -264,6 +264,11 @@ body {
 #imagen {
   width: 450px;
   height: 450px;
+  /* La imagen original es 661x360 (panoramica): sin object-fit se
+     deformaria al forzar el cuadro a 450x450. cover la recorta sin
+     deformar y mantiene el tamano del bloque. */
+  object-fit: cover;
+  object-position: center;
   border-radius: 20px;
 }
 
