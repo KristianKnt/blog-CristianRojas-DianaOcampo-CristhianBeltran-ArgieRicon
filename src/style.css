@@ -7,12 +7,29 @@
 }
 
 
+/*Estilos para div padre*/
+#div-padre {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*Estilos para semi footer*/
+#semi-footer {
+  position: absolute;
+  background-color: #294DEB;
+  padding: 40px 20px;
+  z-index: 1;
+} 
 
 /* Estilos para el pie de página */
 .site-footer {
+  position: relative;
   background-color: #121118;
   color: #fff;
   padding: 40px 20px 20px;
+  
 }
 
 .footer-container {
@@ -21,6 +38,7 @@
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  bottom: 0;
 }
 
 .footer-col {
