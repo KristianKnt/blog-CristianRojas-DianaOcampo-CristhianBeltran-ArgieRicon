@@ -5,33 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
+
 </head>
 
 <body>
 
-
-  <!-- <div id="header-placeholder"></div> -->
-  <header class="site-header">
-    <div class="header-container">
-      <div class="logo">
-        <a href="index.html">Zentra music</a>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #FDFDFD;" data-bs-theme="light">
+      <div>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="https://cdn-icons-png.flaticon.com/128/11471/11471627.png" alt="music" width="30" height="24">
+            </a>
+          </div>
+        </nav>
       </div>
-      <nav class="navigation">
-        <ul id="header">
-          <li><a href="index.html#home">Inicio</a></li>
-          <li><a href="about-us.html">Quienes Somos</a></li>
-          <li><a href="contact-us.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Zentra</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <button class="btn btn-outline-success" type="submit">Iniciar sesión</button>
+        </div>
+        <div class="d-flex">
+          <button class="btn btn-outline-success" type="submit">Registrarse</button>
+        </div>
+      </div>
+    </nav>
   </header>
+
+
+
+
 
   <!-- inicio -->
   <section id="home" class="inicio">
@@ -69,35 +97,58 @@
 
         <div id="footer-placeholder"></div> -->
 
-  <!-- footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-col">
-        <h3>Sobre nosotros</h3>
-        <p>Breve descripción de tu empresa o sitio web.</p>
-      </div>
-      <div class="footer-col">
-        <h3>Enlaces rápidos</h3>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Contacto</h3>
-        <p>Email: info@tucorreo.com</p>
-        <p>Teléfono: +34 123 456 789</p>
-      </div>
+  <div id="div-padre">
+    <div id="semi-footer">
+      <h1>Suscribete a nuestro Diario y recibe Grandes Ofertas</h1>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nosotros nunca vamos a compartir tu email con nadie.</div>
+        </div>
+          
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 Tu Empresa. Todos los derechos reservados.</p>
+
+    <div id="footer">
+      <!-- footer -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>Sobre nosotros</h3>
+            <p>Breve descripción de tu empresa o sitio web.</p>
+          </div>
+          <div class="footer-col">
+            <h3>Enlaces rápidos</h3>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="about-us.html">Quienes somos</a></li>
+              <li><a href="contact-us.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Contacto</h3>
+            <p>Email: info@tucorreo.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
     </div>
-  </footer>
+  </div>
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 
