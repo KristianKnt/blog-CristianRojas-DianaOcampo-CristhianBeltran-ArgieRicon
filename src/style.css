@@ -7,21 +7,14 @@
 }
 
 
-/*Estilos para div padre*/
-#div-padre {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
-/*Estilos para semi footer*/
+/* Estilos para semi footer
 #semi-footer {
   position: absolute;
   background-color: #294DEB;
   padding: 40px 20px;
   z-index: 1;
-} 
+}  */
 
 /* Estilos para el pie de página */
 .site-footer {
